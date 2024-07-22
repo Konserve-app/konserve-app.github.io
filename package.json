@@ -2,7 +2,7 @@
   "homepage": "https://konserve-app.github.io/konserve-app",
   "name": "konserve-app",
   "private": false,
-  "version": "0.1.0",
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
