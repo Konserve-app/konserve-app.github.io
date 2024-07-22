@@ -36,9 +36,9 @@ const router = createBrowserRouter([
       element: <Resetpass />
     }
   ])
-  export default function AppRouter() {
-    return (
-      <RouterProvider router={router} />
-    );
-  }
+export default function AppRouter() {
+  return (
+    <RouterProvider router={router} basename={process.env.PUBLIC_URL} />
+  );
+}
 
